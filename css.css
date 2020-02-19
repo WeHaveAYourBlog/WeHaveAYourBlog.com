@@ -1,0 +1,381 @@
+.table
+{
+	width: 1000px;
+	margin: 0% auto 0% auto;
+}
+
+.block
+{
+
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 5px;
+}
+
+#block
+{
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+	background-color: red;
+}
+
+#pryamougolnik
+{
+	width: 200px;
+	height: 100px;
+	margin: 50px 0px;
+	background-color: red;
+}
+
+#parallelogramm
+{
+	width: 143px;
+	height: 100px;
+	margin: 50px 28.5px;
+	background-color: red;
+	transform: skew(30deg);
+}
+
+#trapeziya
+{
+	width: 100px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+	margin: 50px 0px;
+}
+
+#zvezda
+{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+	position: relative;
+	margin: 33px 50px;
+}
+
+#zvezda:after
+{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid blue;
+	position: absolute;
+	left: -50px;
+	top: 30px;
+	content: "";
+}
+
+#zvezdachka
+{
+	width: 0px;
+	height: 0px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 70px solid blue;
+	position: relative;
+	display: block;
+	transform: rotate(35deg);
+	margin: 65px 3px;
+}
+
+#zvezdachka:before
+{
+	width: 0px;
+	height: 0px;
+	left: -62px;
+	top: -45px;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 80px solid blue;
+	position: absolute;
+	display: block;
+	transform: rotate(-35deg);
+	margin();
+	content: "";
+}
+
+#zvezdachka:after
+{
+	width: 0px;
+	height: 0px;
+	left: -105px;
+	top: 3px;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 70px solid blue;
+	position: absolute;
+	display: block;
+	transform: rotate(-70deg);
+	margin();
+	content: "";
+}
+
+#krug
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: blue;
+}
+
+#oval
+{
+	width: 200px;
+	height: 100px;
+	border-radius: 100px / 50px;
+	margin:50px 0px;
+	background-color: blue;	
+}
+
+#treugolnik
+{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid yellow;
+	margin: 50px 50px;
+}
+
+#notreugolnik
+{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid yellow;
+	margin: 50px 50px;
+}
+
+#treugolnik1
+{
+	width: 0px;
+	height: 0px;
+	border-top: 50px solid transparent;
+	border-right: 100px solid yellow;
+	border-bottom: 50px solid transparent;
+	margin: 50px 50px;
+}
+
+#treugolnik2
+{
+	width: 0px;
+	height: 0px;
+	border-top: 50px solid transparent;
+	border-left: 100px solid yellow;
+	border-bottom: 50px solid transparent;
+	margin: 50px 50px;
+}
+
+#treugolnik3
+{
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-right: 100px solid transparent;
+	margin: 50px 50px;
+}
+
+#treugolnik4
+{
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid green;
+	border-left: 100px solid transparent;
+	margin: 50px 50px;
+}
+
+#treugolnik5
+{
+	width: 0px;
+	height: 0px;
+	border-bottom: 100px solid green;
+	border-right: 100px solid transparent;
+	margin: 50px 50px;
+}
+
+#treugolnik6
+{
+	width: 0px;
+	height: 0px;
+	border-bottom: 100px solid green;
+	border-left: 100px solid transparent;
+	margin: 50px 50px;
+}
+
+#pyatiugolnik
+{
+	width: 54px;
+	position: relative;
+	border-width: 50px 18px 0px;
+	border-style: solid;
+	border-color: brown transparent;
+	margin: 90px auto;
+
+}
+
+#pyatiugolnik:before
+{
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent brown;
+    content: "";
+}
+
+#chectiugolnik {
+	width: 100px;
+	height: 55px;
+	background: brown;
+	position: relative;
+	margin: 73px auto;
+}
+#chectiugolnik:before {
+	content: "";
+	position: absolute;
+	top: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid brown;
+}
+#chectiugolnik:after {
+	content: "";
+	position: absolute;
+	bottom: -25px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid brown;
+}
+
+#octagon {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: brown;
+	margin: 50px auto; 
+}
+ 
+#octagon:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;    
+	border-bottom: 29px solid brown;
+	border-left: 29px solid white;
+	border-right: 29px solid white;
+	width: 42px;
+	height: 0;
+}
+ 
+#octagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;    
+	border-top: 29px solid brown;
+	border-left: 29px solid white;
+	border-right: 29px solid white;
+	width: 42px;
+	height: 0;
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin: 60px auto; 
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: brown;
+    border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+            transform: rotate(45deg);
+            transform-origin :100% 100%;
+}
+
+#infinity {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 50px 0px;
+}
+ 
+#infinity:before,
+#infinity:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;    
+    border: 20px solid orange;
+         border-radius: 50px 50px 0 50px;
+            transform: rotate(-45deg);
+}
+ 
+#infinity:after {
+    left: auto;
+    right: 0;
+         border-radius: 50px 50px 50px 0;
+            transform:rotate(45deg);
+}
+
+#blockrotate
+{
+	width: 100px;
+	height:100px;
+	background-color: orange;
+	animation: newfoo 1.2s;
+	animation: newd 1.2s;
+    margin: 50px auto;
+    animation-iteration-count: infinite;
+}
+
+@keyframes newfoo
+{
+0% { transform: perspective(120px) }
+  50% { transform: perspective(120px) rotateY(180deg) }
+  100% { transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes newd
+{
+0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg) ;
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
